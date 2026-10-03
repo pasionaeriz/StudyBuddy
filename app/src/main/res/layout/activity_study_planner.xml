@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STUDY TIME PLANNER"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginBottom="30dp" />
+
+    <EditText
+        android:id="@+id/etSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Subjects"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Available Study Hours"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCreatePlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Plan"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/tvPlanResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your study plan will appear here"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>
